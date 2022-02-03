@@ -1,6 +1,7 @@
 from django.core.exceptions import PermissionDenied
-from posts.models import Comment, Group, Post
 from rest_framework import viewsets
+
+from posts.models import Comment, Group, Post
 
 from .serializers import CommentSerializer, GroupSerializer, PostSerializer
 
